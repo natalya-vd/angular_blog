@@ -1,0 +1,10 @@
+footer {
+  min-height: 130px;
+  margin-top: 85vh;
+  padding: 16px;
+  background-color: var(--navbar-footer-color);
+}
+
+.logo {
+  font-size: 1.2em;
+}
