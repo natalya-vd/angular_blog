@@ -38,8 +38,16 @@ a {
   background-color: var(--primary-color);
 }
 
+.bg-secondary-theme {
+  background-color: var(--secondary-color);
+}
+
 .text-theme {
   color: var(--body-text-color);
+}
+
+.text-primary-theme {
+  color: var(--primary-color);
 }
 
 input[type="text"],
@@ -54,5 +62,6 @@ input[type="email"] {
   height: 58px;
   border: none;
   background-color: var(--primary-color);
+  color: var(--bs-white);
   font-size: 13px;
 }
