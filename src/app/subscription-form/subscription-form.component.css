@@ -7,9 +7,8 @@
   width: 500px;
 }
 
-input[text],
-input[email] {
-  height: 60px;
+input[type="text"],
+input[type="email"] {
   width: 100%;
   padding-left: 20px;
   font-size: 13px;
