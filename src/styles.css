@@ -14,6 +14,10 @@ body {
   color: var(--body-text-color);
 }
 
+a {
+  text-decoration: none;
+}
+
 .logo {
   padding: 5px 20px;
   border-radius: 20px;
@@ -31,6 +35,24 @@ body {
 }
 
 .bg-theme {
-  padding: 0 130px 130px;
   background-color: var(--primary-color);
+}
+
+.text-theme {
+  color: var(--body-text-color);
+}
+
+input[type="text"],
+input[type="email"] {
+  height: 60px;
+  width: 100%;
+  padding-left: 20px;
+  font-size: 13px;
+}
+
+.btn-theme {
+  height: 58px;
+  border: none;
+  background-color: var(--primary-color);
+  font-size: 13px;
 }

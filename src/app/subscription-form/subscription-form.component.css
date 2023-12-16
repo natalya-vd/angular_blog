@@ -6,17 +6,3 @@
 .subs-text {
   width: 500px;
 }
-
-input[type="text"],
-input[type="email"] {
-  width: 100%;
-  padding-left: 20px;
-  font-size: 13px;
-}
-
-.btn-sub {
-  height: 58px;
-  border: none;
-  background-color: var(--primary-color);
-  font-size: 13px;
-}
